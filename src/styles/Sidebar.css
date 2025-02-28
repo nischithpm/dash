@@ -1,0 +1,104 @@
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    background-color: #4e83fb;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    background-color: #0d377f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .logo-icon {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .sidebar-item.active {
+    background-color: white;
+    color: #4e83fb;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .contact-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: auto;
+  }
+  
+  .contact-container p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-button {
+    background-color: #7ad0f7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #63c0ea;
+  }
