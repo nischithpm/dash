@@ -14,23 +14,34 @@ function App() {
       <Sidebar />
       <div className="main-content">
         <div className="middle-section">
-          <Header />
+          {/* <Header /> */}
+          <div class="container">
+            <div class="text-content">
+              <p>Welcome Back,</p>
+              <h1>James Bond</h1>
+            </div>
+            <div>
+              <button class="upload-product">
+                <b>Upload Product</b>
+              </button>
+            </div>
+          </div>
           <div className="cards-container">
             <ReferralCard />
             <div className="stats-row">
-              <StatCard 
-                title="TOTAL PRODUCT" 
-                value="11,300" 
-                subValue="Items" 
-                change="+10% this week" 
-                positive={true} 
+              <StatCard
+                title="TOTAL PRODUCT"
+                value="11,300"
+                subValue="Items"
+                change="+10% this week"
+                positive={true}
               />
-              <StatCard 
-                title="TOTAL EARNING" 
-                value="4,230" 
-                subValue="Dollar" 
-                change="-20% this week" 
-                positive={false} 
+              <StatCard
+                title="TOTAL EARNING"
+                value="4,230"
+                subValue="Dollar"
+                change="-20% this week"
+                positive={false}
               />
             </div>
             <DownloadChart />
