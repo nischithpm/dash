@@ -3,14 +3,14 @@ import '../styles/TopUsers.css';
 
 const TopUsers = () => {
   const users = [
-    { id: 1, name: 'James Bond', color: '#53dbf0' },
-    { id: 2, name: 'Jonyy Dep', color: '#53dbf0' },
-    { id: 3, name: 'James Cameron', color: '#53dbf0' },
-    { id: 4, name: 'Diny Delems', color: '#53dbf0' },
-    { id: 5, name: 'Brad Pit', color: '#53dbf0' },
-    { id: 6, name: 'Anjelina Jolly', color: '#53dbf0' },
-    { id: 7, name: 'Tom Cruise', color: '#53dbf0' },
-    { id: 8, name: 'Leonardo DiCaprio', color: '#53dbf0' }
+    { id: 1, name: 'Mahesh', color: '#53dbf0' },
+    { id: 2, name: 'Suresh', color: '#53dbf0' },
+    { id: 3, name: 'Yogesh', color: '#53dbf0' },
+    { id: 4, name: 'Sarvesh', color: '#53dbf0' },
+    { id: 5, name: 'Rahul', color: '#53dbf0' },
+    { id: 6, name: 'Dhanu', color: '#53dbf0' },
+    { id: 7, name: 'Vignesh', color: '#53dbf0' },
+    { id: 8, name: 'Karthi', color: '#53dbf0' }
   ];
 
   return (

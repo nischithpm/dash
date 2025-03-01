@@ -6,12 +6,16 @@
   border-radius: 12px;
   padding: 20px 30px;
   color: white;
+  height: 235px;
 }
 
 .referral-content {
   max-width: 60%;
 }
-
+.highlight {
+  display: block;
+  font-weight: bold;
+}
 .referral-title {
   font-size: 32px;
   margin-bottom: 25px;
@@ -36,15 +40,4 @@
 
 .referral-button:hover {
   background-color: #f0f0f0;
-}
-
-.referral-image {
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.referral-image img {
-  max-width: 100%;
-  height: auto;
 }

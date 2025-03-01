@@ -6,12 +6,9 @@ const ReferralCard = () => {
     <div className="referral-card">
       <div className="referral-content">
         <p className="referral-title">
-          Want Some <b>Extra</b> Money?
+          Want Some <span className="highlight">EXTRA Money?</span> 
         </p>
         <button className="referral-button">Referral Program</button>
-      </div>
-      <div className="referral-image">
-        <img src="" alt="Dashboard illustration" />
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
-import Header from './components/StatCard';
 import ReferralCard from './components/ReferralCard';
 import StatCard from './components/StatCard';
 import DownloadChart from './components/DownloadsChart';
@@ -14,11 +13,10 @@ function App() {
       <Sidebar />
       <div className="main-content">
         <div className="middle-section">
-          {/* <Header /> */}
           <div class="container">
             <div class="text-content">
               <p>Welcome Back,</p>
-              <h1>James Bond</h1>
+              <h1>User</h1>
             </div>
             <div>
               <button class="upload-product">
@@ -28,6 +26,7 @@ function App() {
           </div>
           <div className="cards-container">
             <ReferralCard />
+          </div>
             <div className="stats-row">
               <StatCard
                 title="TOTAL PRODUCT"
@@ -38,14 +37,14 @@ function App() {
               />
               <StatCard
                 title="TOTAL EARNING"
-                value="4,230"
-                subValue="Dollar"
+                value="40,230"
+                subValue="Rupee"
                 change="-20% this week"
                 positive={false}
               />
             </div>
             <DownloadChart />
-          </div>
+          
         </div>
         <div className="right-section">
           <div className="search-notification">

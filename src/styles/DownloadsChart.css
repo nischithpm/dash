@@ -11,24 +11,13 @@
   margin-bottom: 20px;
 }
 
-.download-chart-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  background-color: #e8f1ff;
-  color: #4e83fb;
-  border-radius: 6px;
-  margin-right: 10px;
-}
 
 .download-chart-title {
   color: #4e83fb;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .download-chart-content {
-  height: 180px;
+  height: 190px;
 }

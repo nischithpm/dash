@@ -17,13 +17,12 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="logo-container">
         <div className="logo">
-          <span className="logo-icon">G</span>
+          <span className="logo-icon">S</span>
         </div>
-        <h2 className="brand-name">GFlex.</h2>
+        <h2 className="brand-name">Squeez.</h2>
       </div>
 
       <div className="sidebar-section">
-        <p className="section-title">Admin Tools</p>
         <ul className="sidebar-menu">
           <li 
             className={`sidebar-item ${activeItem === 'overview' ? 'active' : ''}`}

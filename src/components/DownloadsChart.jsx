@@ -76,7 +76,7 @@ const DownloadsChart = () => {
   return (
     <div className="download-chart-card">
       <div className="download-chart-header">
-        <span className="download-chart-icon">📊</span>
+        
         <span className="download-chart-title">LASTEST DOWNLOAD</span>
       </div>
       <div className="download-chart-content">
